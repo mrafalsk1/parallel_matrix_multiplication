@@ -59,11 +59,6 @@ The program performs the following:
 
 ## Code Overview
 
-### Key Functions
-- **`initialize_matrix(int *matrix, int rows, int columns)`**: Populates a matrix with random integers.
-- **`print_matrix(int *matrix, int rows, int columns)`**: Prints the matrix in a human-readable format.
-- **`multiply_matrix(void *arg)`**: Computes a matrix column product using threads.
-
 ### Parallelization Workflow
 1. **MPI**:
    - Scatters rows of matrix `A` across all processes.
